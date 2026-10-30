@@ -1,0 +1,57 @@
+# Danh sách file thực tế — TlinhGame phần 2.1
+
+Mọi đường dẫn dưới đây tính từ thư mục `tlinhgame`. Đây là các file có nội dung đầy đủ trong gói, không bao gồm mô-đun tương lai chưa triển khai.
+
+- `.gitattributes`
+- `.github/workflows/ci.yml`
+- `.gitignore`
+- `.node-version`
+- `.npmrc`
+- `BAT_DAU_O_DAY.html`
+- `CHAY_TLINHGAME.cmd`
+- `DANH_SACH_FILE.md`
+- `LICENSE`
+- `README.md`
+- `apps/server/.env.example`
+- `apps/server/package.json`
+- `apps/server/src/app.ts`
+- `apps/server/src/config.ts`
+- `apps/server/src/index.ts`
+- `apps/server/tsconfig.json`
+- `apps/web/.env.example`
+- `apps/web/index.html`
+- `apps/web/package.json`
+- `apps/web/public/favicon.svg`
+- `apps/web/src/App.tsx`
+- `apps/web/src/components/AppShell.tsx`
+- `apps/web/src/components/GameCard.tsx`
+- `apps/web/src/components/HeroScene.tsx`
+- `apps/web/src/lib/AudioManager.ts`
+- `apps/web/src/lib/network.tsx`
+- `apps/web/src/lib/preferences.tsx`
+- `apps/web/src/lib/requestId.ts`
+- `apps/web/src/main.tsx`
+- `apps/web/src/pages/ConnectionPage.tsx`
+- `apps/web/src/pages/GameLibraryPage.tsx`
+- `apps/web/src/pages/HomePage.tsx`
+- `apps/web/src/pages/SettingsPage.tsx`
+- `apps/web/src/styles.css`
+- `apps/web/tsconfig.json`
+- `apps/web/vite.config.ts`
+- `docs/01-thiet-ke.md`
+- `docs/02-trang-thai.md`
+- `docs/tai-nguyen-va-giay-phep.md`
+- `package-lock.json`
+- `package.json`
+- `packages/shared/package.json`
+- `packages/shared/src/gameCatalog.ts`
+- `packages/shared/src/index.ts`
+- `packages/shared/src/protocol.ts`
+- `packages/shared/tsconfig.json`
+- `render.yaml`
+- `scripts/dev.mjs`
+- `scripts/package-source.py`
+- `tests/integration/foundation.test.ts`
+- `tsconfig.base.json`
+- `tsconfig.tests.json`
+- `vitest.config.ts`

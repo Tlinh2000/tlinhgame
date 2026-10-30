@@ -1,0 +1,32 @@
+{
+  "name": "tlinhgame",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=24.22.1 <25"
+  },
+  "scripts": {
+    "predev": "npm run build --workspace @tlinhgame/shared",
+    "dev": "node scripts/dev.mjs",
+    "build:server": "npm run build --workspace @tlinhgame/shared && npm run build --workspace @tlinhgame/server",
+    "build:web": "npm run build --workspace @tlinhgame/shared && npm run build --workspace @tlinhgame/web",
+    "build": "npm run build:server && npm run build --workspace @tlinhgame/web",
+    "start": "npm run start --workspace @tlinhgame/server",
+    "typecheck": "npm run build --workspace @tlinhgame/shared && npm run typecheck --workspaces --if-present && tsc -p tsconfig.tests.json",
+    "test": "npm run build --workspace @tlinhgame/shared && vitest run",
+    "check": "npm run typecheck && npm test && npm run build",
+    "pack:source": "python3 scripts/package-source.py"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "vitest": "5.0.5"
+  }
+}
